@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply inline-block px-3 py-2 mt-5 text-sm text-gray-800 rounded-md bg-primary md:text-lg hover:bg-orange-500;
+    }
+}
