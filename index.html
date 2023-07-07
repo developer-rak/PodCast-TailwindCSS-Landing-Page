@@ -15,8 +15,9 @@
 <body class="text-gray-200 bg-zinc-900 font-poppins">
     <!-- -----HERO SECTION----- -->
     <section class="flex items-center justify-center min-h-screen">
-        <div class="max-w-[1024px] w-[90%] mx-auto flex  flex-col md:flex-row">
-            <div class="flex-1">
+        <div
+            class="max-w-[1024px] w-[90%] mx-auto flex  items-center justify-center flex-col-reverse md:flex-row gap-10">
+            <div class="flex-1 text-center md:text-left">
                 <h1 class="text-4xl md:text-[60px] font-bold text-primary leading-tight uppercase">The Audio People</h1>
                 <p class="text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut
                     voluptate temporibus beatae
@@ -25,7 +26,12 @@
                 <a href="#" class="btn-primary">Start
                     Listening</a>
             </div>
-            <div class="flex-1"></div>
+            <div class="flex-1">
+                <div class="w-full h-[50vh] md:h-screen overflow-hidden relative">
+                    <img class="object-contain md:h-[150vh] w-full h-full md:absolute md:top-[-25%]"
+                        src="img/hero_section_img.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
 </body>
