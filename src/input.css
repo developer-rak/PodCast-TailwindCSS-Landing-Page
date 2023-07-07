@@ -8,6 +8,6 @@
     }
 
     .btn-secondary {
-        @apply inline-block px-4 py-1 mt-5 text-xs capitalize bg-transparent border rounded-md border-primary md:text-lg hover:bg-orange-500;
+        @apply inline-block px-4 py-1 text-sm font-medium capitalize bg-transparent border rounded-md border-primary hover:bg-orange-500;
     }
 }
