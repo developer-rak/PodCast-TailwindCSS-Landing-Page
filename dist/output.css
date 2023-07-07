@@ -667,6 +667,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -776,6 +780,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[80px\] {
+  font-size: 80px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -826,6 +834,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
   }
 
   .md\:text-left {
